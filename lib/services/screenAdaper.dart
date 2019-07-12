@@ -7,8 +7,18 @@ class ScreenAdaper{
   static height(double v){
     return ScreenUtil.getInstance().setHeight(v);
   }
+  //设置宽度
   static width(double v){
     return ScreenUtil.getInstance().setWidth(v);
   }
+  //获取宽度
+  static getScreenWidth(){
+    return ScreenUtil.screenWidthDp;
+  }
+
+  static getScreenHeight(){
+    return ScreenUtil.screenHeightDp;
+  }
+
 }
 
