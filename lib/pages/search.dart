@@ -1,18 +1,17 @@
 import 'package:flutter/material.dart';
 
 
-
-class SearchPage extends StatefulWidget {
+class SearchDemo extends StatefulWidget {
   @override
-  _SearchPageState createState() => _SearchPageState();
+  _SearchDemoState createState() => _SearchDemoState();
 }
 
-class _SearchPageState extends State<SearchPage> {
+class _SearchDemoState extends State<SearchDemo> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       appBar: AppBar(title: Text("search"),),
-       body: Text("search"),
+      appBar: AppBar(title: Text("search"),centerTitle: true,),
+      body: Text("search"),
     );
   }
 }
